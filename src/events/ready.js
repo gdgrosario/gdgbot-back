@@ -1,15 +1,10 @@
 module.exports = (client) => {
-  
   // Presence
-  client.user.setPresence( 
-    {
-      status: "online", 
-      game: { 
-        name: `BOTITOJS:)`, 
-        type: "WATCHING"
-      }
-    }
-  );
- 
-  
+  client.user.setPresence({
+    activity: {
+      name: "BotitoJS is here!",
+      type: "PLAYING",
+    },
+    status: "online",
+  });
 };

@@ -7,7 +7,7 @@ module.exports = (client, message) => {
     .slice(process.env.PREFIX.length)
     .trim()
     .split(/ +/g);
-  const command = args.shift().toLowerCase();
+  const command = args.shift();
 
   // Collections
   const cmd = client.commands.get(command);

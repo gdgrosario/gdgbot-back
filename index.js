@@ -31,4 +31,12 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
-client.login(token);
+client
+.login(token)
+  .then(() => {
+    console.log(`Bot initiated. Logged as ${client.user.tag}`);
+  })
+  .catch((err) => {
+    console.error("Error: ", err);
+  });
+

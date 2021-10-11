@@ -3,8 +3,8 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('user-info')
-		.setDescription('Display info about yourself.'),
+		.setDescription('Devuelve la informacion del usuario'),
 	async execute(interaction) {
-		return interaction.reply(`Your username: ${interaction.user.username}\nYour ID: ${interaction.user.id}`);
+		return interaction.reply(`Nombre de usuario: ${interaction.user.username}\nID: ${interaction.user.id}`);
 	},
 };

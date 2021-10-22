@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
-    "start": "node deploy-commands.js && npm test ",
+    "test": "node deploy-commands.js && nodemon index.js",
+    "start": "node deploy-commands.js && node index.js ",
     "deploy": "node deploy-commands.js"
   },
   "repository": {
@@ -21,7 +21,9 @@
   "dependencies": {
     "@discordjs/rest": "^0.1.0-canary.0",
     "discord-api-types": "^0.23.1",
-    "discord.js": "^13.2.0",
-    "nodemon": "^2.0.13"
+    "discord.js": "^13.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }

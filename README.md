@@ -26,7 +26,7 @@ Para que el bot funcione correctamente se debe crear el archivo config.json, con
 1* Como primer paso debe forkear el repositorio [https://github.com/gdgrosario/gdgbot-back]
 
 2* A continuacion debemos clonar el repositorio forkeado 
-\n*Ejemplo*  
+*Ejemplo*  
 ```bash
 $ git clone https://github.com/mirepo/gdgbot-back
 ```
@@ -34,7 +34,7 @@ $ git clone https://github.com/mirepo/gdgbot-back
 3* Una vez este clonado el repositorio forkeado podemos realizar los cambios con los que vamos a contribuir
 
 4* Añadir los cambios a una rama propia
-\n*Ejemplo*
+*Ejemplo*
 # COMANDOS PARA CREAR RAMA
 
 - Para crear una rama, utilizaremos el comando git branch. Vamos a crear una rama
@@ -68,7 +68,7 @@ Si ya hemos pusheado esta rama anteriormente
 $ git push origin [nombre de nuestra rama]
 ```
 6* Vamos a nuestro repositorio y presionamos el boton "Compare & pull request"
-\n*Ejemplo*
+*Ejemplo*
 (https://github.com/santiagoesdras/gdgbot-back/tree/readme/src/utils/readme.images/compare.jpg)
 
 7* Escribimos un comentario mas detallado de los cambios o la contribucion realizada y creamos el Pull request

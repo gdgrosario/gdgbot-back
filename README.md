@@ -26,7 +26,7 @@ Para que el bot funcione correctamente se debe crear el archivo config.json, con
 1* Como primer paso debe forkear el repositorio [https://github.com/gdgrosario/gdgbot-back]
 
 2* A continuacion debemos clonar el repositorio forkeado 
-*Ejemplo*  
+\n*Ejemplo*  
 ```bash
 $ git clone https://github.com/mirepo/gdgbot-back
 ```
@@ -34,7 +34,7 @@ $ git clone https://github.com/mirepo/gdgbot-back
 3* Una vez este clonado el repositorio forkeado podemos realizar los cambios con los que vamos a contribuir
 
 4* Añadir los cambios a una rama propia
-*Ejemplo*
+\n*Ejemplo*
 # COMANDOS PARA CREAR RAMA
 
 - Para crear una rama, utilizaremos el comando git branch. Vamos a crear una rama
@@ -47,18 +47,18 @@ $ git branch [nombre]
 ```bash
 $ git checkout [nombre]
 ```
-- Ahora añadimos todos los cambios realizados, utilizando el comando git add (Es recomandable que verifiques bien tus cambios antes de añadirlos para no crear conflitos ni perjudicar al proyecto o evitar que el pr sea rechazado).
+- Ahora añadimos todos los cambios realizados, utilizando el comando git add *(Es recomandable que verifiques bien tus cambios antes de añadirlos para no crear conflitos ni perjudicar al proyecto o evitar que el pr sea rechazado)*.
 
 ```bash
 $ git add .
 ```
-- A continuacion commiteamos los cambios, utilizando el comando git commit -m (Este comentario debe ser lo mas corto posible)
+- A continuacion commiteamos los cambios, utilizando el comando git commit -m *(Este comentario debe ser lo mas corto posible)*.
 
 ```bash
 $ git commit -m [cambios realizdos]
 ```
 5* Pushear los cambios al repositorio
-*Ejemplo*
+\n*Ejemplo*
 Si es la primera vez que pusheamos esta rama
 ```bash
 $ git push -u origin [nombre de nuestra rama] 
@@ -68,16 +68,16 @@ Si ya hemos pusheado esta rama anteriormente
 $ git push origin [nombre de nuestra rama]
 ```
 6* Vamos a nuestro repositorio y presionamos el boton "Compare & pull request"
-*Ejemplo*
-(https://raw.githubusercontent.com/santiagoesdras/gdgbot-back/tree/readme/src/utils/readme.images/compare.jpg)
+\n*Ejemplo*
+(https://github.com/santiagoesdras/gdgbot-back/tree/readme/src/utils/readme.images/compare.jpg)
 
 7* Escribimos un comentario mas detallado de los cambios o la contribucion realizada y creamos el Pull request
 
 
 ### Team
 
-Esdras Santiago <santiagoesdras501@gmail.com> [Github](https://github.com/santiagoesdras)
+Esdras Santiago <santiagoesdras501@gmail.com> [Github] [https://github.com/santiagoesdras]
 
-Nacho Belando <ignaciobelando@gmail.com> [Github](https://github.com/iBelando)
+Nacho Belando <ignaciobelando@gmail.com>   [Github] [https://github.com/iBelando]
 
-Ulysses Torres <ulyssestorres2003@gmail.com> [Github](https://github.com/ulyssesRizzo)
+Ulysses Torres <ulyssestorres2003@gmail.com>   [Github] [https://github.com/ulyssesRizzo]

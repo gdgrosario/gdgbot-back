@@ -69,7 +69,7 @@ $ git push origin [nombre de nuestra rama]
 ```
 6* Vamos a nuestro repositorio y presionamos el boton "Compare & pull request"
 *Ejemplo*
-https://raw.githubusercontent.com/santiagoesdras/gdgbot-back/tree/main/src/utils/readme.images/compare.jpg
+(https://raw.githubusercontent.com/santiagoesdras/gdgbot-back/tree/readme/src/utils/readme.images/compare.jpg)
 
 7* Escribimos un comentario mas detallado de los cambios o la contribucion realizada y creamos el Pull request
 

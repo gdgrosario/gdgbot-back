@@ -5,8 +5,11 @@ En produccion sera llamada botitojs, es un bot de discord de comunidad en desarr
 ## Tecnologias utilizadas
 ***
 *[discord.js](https://www.npmjs.com/package/discord.js):Version 13.3.1
+
 *[@discordjs/rest]():Version ^0.1.0-canary.0
+
 *[@discord-api-types]():Version ^0.23.1
+
 *[@discordjs/builders](): Version 0.8.2
 
 ## Instalacion

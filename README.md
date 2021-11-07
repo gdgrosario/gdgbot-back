@@ -1,6 +1,6 @@
 # GDG-bot-backend
 ***
-En produccion sera llamada botitojs, es un bot de discord de comunidad en desarrollo, pensado especificamente para el servidor de discord GDG Rosario.
+En produccion sera llamado botitojs, es un bot de discord de comunidad en desarrollo, pensado especificamente para el servidor de discord GDG Rosario.
 
 ## Tecnologias utilizadas
 ***
@@ -29,6 +29,7 @@ Para que el bot funcione correctamente se debe crear el archivo config.json, con
 1* Como primer paso debe forkear el repositorio [https://github.com/gdgrosario/gdgbot-back]
 
 2* A continuacion debemos clonar el repositorio forkeado 
+
 *Ejemplo*  
 ```bash
 $ git clone https://github.com/mirepo/gdgbot-back
@@ -37,6 +38,7 @@ $ git clone https://github.com/mirepo/gdgbot-back
 3* Una vez este clonado el repositorio forkeado podemos realizar los cambios con los que vamos a contribuir
 
 4* Añadir los cambios a una rama propia
+
 *Ejemplo*
 # COMANDOS PARA CREAR RAMA
 
@@ -63,7 +65,6 @@ $ git commit -m [cambios realizdos]
 5* Pushear los cambios al repositorio
 
 *Ejemplo*
-
 Si es la primera vez que pusheamos esta rama
 ```bash
 $ git push -u origin [nombre de nuestra rama] 
@@ -73,6 +74,7 @@ Si ya hemos pusheado esta rama anteriormente
 $ git push origin [nombre de nuestra rama]
 ```
 6* Vamos a nuestro repositorio y presionamos el boton "Compare & pull request"
+
 *Ejemplo*
 <img src="src/utils/readme.images/compare.png" />
 

@@ -74,7 +74,7 @@ $ git push origin [nombre de nuestra rama]
 ```
 6* Vamos a nuestro repositorio y presionamos el boton "Compare & pull request"
 *Ejemplo*
-<img src="src/utils/readme.images/compare.jpg" />
+<img src="src/utils/readme.images/compare.png" />
 
 7* Escribimos un comentario mas detallado de los cambios o la contribucion realizada y creamos el Pull request
 

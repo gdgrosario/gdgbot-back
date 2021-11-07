@@ -61,7 +61,9 @@ $ git add .
 $ git commit -m [cambios realizdos]
 ```
 5* Pushear los cambios al repositorio
-\n*Ejemplo*
+
+*Ejemplo*
+
 Si es la primera vez que pusheamos esta rama
 ```bash
 $ git push -u origin [nombre de nuestra rama] 
@@ -72,7 +74,7 @@ $ git push origin [nombre de nuestra rama]
 ```
 6* Vamos a nuestro repositorio y presionamos el boton "Compare & pull request"
 *Ejemplo*
-(https://github.com/santiagoesdras/gdgbot-back/tree/readme/src/utils/readme.images/compare.jpg)
+<img src="src/utils/readme.images/compare.jpg" />
 
 7* Escribimos un comentario mas detallado de los cambios o la contribucion realizada y creamos el Pull request
 

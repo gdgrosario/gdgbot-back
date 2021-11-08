@@ -4,13 +4,13 @@ En produccion sera llamado botitojs, es un bot de discord de comunidad en desarr
 
 ## Tecnologias utilizadas
 ***
-*[discord.js](https://www.npmjs.com/package/discord.js):Version 13.3.1
+* [discord.js](https://www.npmjs.com/package/discord.js):Version 13.3.1
 
-*[@discordjs/rest]():Version ^0.1.0-canary.0
+* [@discordjs/rest]():Version ^0.1.0-canary.0
 
-*[@discord-api-types]():Version ^0.23.1
+* [@discord-api-types]():Version ^0.23.1
 
-*[@discordjs/builders](): Version 0.8.2
+* [@discordjs/builders](): Version 0.8.2
 
 ## Instalacion
 ***
@@ -24,11 +24,11 @@ $ npm start
 *NOTA 
 Para que el bot funcione correctamente se debe crear el archivo config.json, consulte el archivo config.json.example para crear el suyo.
 ```
-##Colaborar al proyecto
+## Colaborar al proyecto
 ***
-1* Como primer paso debe forkear el repositorio [https://github.com/gdgrosario/gdgbot-back]
+- 1 Como primer paso debe forkear el repositorio [https://github.com/gdgrosario/gdgbot-back]
 
-2* A continuacion debemos clonar el repositorio forkeado 
+- 2 A continuacion debemos clonar el repositorio forkeado 
 
 *Ejemplo*  
 ```bash
